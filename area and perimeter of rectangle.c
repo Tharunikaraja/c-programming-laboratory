@@ -10,5 +10,6 @@ int main ()
     pm=2*(l+b);
     printf("area of a rectangle         = %d\n",area);
     printf("perimeter of a rectangle is = %d",pm);
+    return 0;
     
 }
