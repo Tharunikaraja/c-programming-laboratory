@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main ()
 {
-    float pa,r,t,amount,c,a,ci;
+    float pa,r,t,amount,c,a=1,ci;
     printf("Enter principal amount : ");
     scanf("%f",&pa);
     printf("Enter rate : ");
@@ -9,12 +9,12 @@ int main ()
     printf("Enter time : ");
     scanf("%f",&t);
     c=(1+(r/100));
-    int count=0;
-    do
+    
+    for(int i=1;i<=t;i++)
     {
-        a=c*c;
-        count++;
-    }while(count<=t-1);
+        
+        a*=c;
+    }
     amount=pa*a;
     ci=amount-pa;
     printf("compound interest is : %.3f",ci);
