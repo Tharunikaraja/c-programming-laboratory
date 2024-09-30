@@ -18,4 +18,5 @@ int main ()
     amount=pa*a;
     ci=amount-pa;
     printf("compound interest is : %.3f",ci);
+    return 0;
 }
