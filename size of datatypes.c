@@ -15,5 +15,6 @@ short int f;
 printf("size of shortint     = %ld bytes\n",sizeof(f));
 long int g;
 printf("size of longint      = %ld bytes\n",sizeof(g));
+return 0;
 
 }
