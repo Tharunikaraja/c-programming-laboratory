@@ -13,7 +13,7 @@ int main ()
     for(int i=1;i<=t;i++)
     {
         
-        a*=c;
+        a=a*c;
     }
     amount=pa*a;
     ci=amount-pa;
