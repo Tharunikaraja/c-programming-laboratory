@@ -3,14 +3,14 @@
 int main()
 {
     int a,b,c;
-    printf("Enter n1 : ");
+    printf("Enter a : ");
     scanf("%d",&a);
-    printf("Enter n2 : ");
+    printf("Enter b : ");
     scanf("%d",&b);
     c=a;
     a=b;
     b=c;
-    printf("n1 is: %d \n",a);
-    printf("n2 is: %d ",b);
+    printf("a is: %d \n",a);
+    printf("b is: %d ",b);
     return 0;
 }
