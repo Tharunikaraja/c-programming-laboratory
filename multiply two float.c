@@ -7,7 +7,7 @@ int main()
     scanf("%f",&a);
     printf("Enter the number 2 :");
     scanf("%f",&b);
-    printf("product is %f",a*b);
+    printf("product is %.2f",a*b);
 
     return 0;
 }
