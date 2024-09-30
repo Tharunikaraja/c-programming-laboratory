@@ -10,4 +10,5 @@ int main ()
     scanf("%f",&t);
     si=(p*r*t)/100;
     printf("simple interest is : %.3f",si);
+    return 0;
 }
