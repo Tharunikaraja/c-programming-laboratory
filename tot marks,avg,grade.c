@@ -40,7 +40,7 @@ int main()
     }
     else if(avg<=50 && avg>=0)
     {
-        printf("You are Failed");
+        printf("You Failed in the exam");
     }
     else
     {
