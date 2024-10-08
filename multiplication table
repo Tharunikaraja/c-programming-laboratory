@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main()
+{
+    int a,b,i;
+    printf("Enter the number to print its multiples : ");
+    scanf("%d",&a);
+    printf("Enter the limit : ");
+    scanf("%d",&b);
+    for(i=1;i<=b;i++)
+    {
+        printf("%d * %d = %d\n",i,a,a*i);
+    }
+    return 0;
+}
